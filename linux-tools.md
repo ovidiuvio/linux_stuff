@@ -11,5 +11,5 @@ sudo apt install silversearcher-ag
 
 ripgrep ( seems to be the fastest right now )
 ```
-https://github.com/BurntSushi/ripgrep
+[github](https://github.com/BurntSushi/ripgrep)
 ```
