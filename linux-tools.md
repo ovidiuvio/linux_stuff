@@ -9,10 +9,10 @@ silversearcher-ag ( very fast grep )
 sudo apt install silversearcher-ag
 ```
 
-ripgrep ( seems to be the fastest right now )
+[ripgrep](https://github.com/BurntSushi/ripgrep) ( seems to be the fastest right now )
 
 ```
 sudo apt install ripgrep
 ```
 
-[ripgrep git](https://github.com/BurntSushi/ripgrep)
+
