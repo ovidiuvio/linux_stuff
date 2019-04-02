@@ -5,9 +5,23 @@
 
 ### Snippets
 
-### Attach to a running container
+### Get container id
 ```
 sudo docker container ps
+```
+### Attach to a running container
+```
 sudo docker exec -i -t <id> /bin/bash
 ```
+### Stop container
+```
+sudo docker stop <id>
+```
+### Modify entrypoint
+```
+sudo docker run -t --entrypoint=sh
+```
+
+
+
 
