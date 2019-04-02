@@ -3,3 +3,11 @@
 ### Docker Entrypoint explained
 [Entrypoint](https://medium.com/the-code-review/how-to-use-entrypoint-with-docker-and-docker-compose-1c2062aa17a2)
 
+### Snippets
+
+### Attach to a running container
+```
+sudo docker container ps
+sudo docker exec -i -t <id> /bin/bash
+```
+
