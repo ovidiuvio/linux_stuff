@@ -21,6 +21,10 @@ sudo docker stop <id>
 ```
 sudo docker run -t --entrypoint=sh
 ```
+### Stop all containers
+```
+sudo docker stop $(docker ps -q)
+```
 
 
 
