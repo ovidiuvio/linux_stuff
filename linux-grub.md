@@ -14,3 +14,8 @@ grub2-mkconfig -o /boot/grub2/grub.cfg
 ```
 grub2-mkconfig -o /boot/efi/EFI/centos/grub.cfg
 ```
+
+### Check boot params
+```
+cat /proc/cmdline
+```
