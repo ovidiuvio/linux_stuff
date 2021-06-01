@@ -1,1 +1,1 @@
-find . -name "*.yaml" -o -type f -exec sed -i 's/synopsys-0.10/synopsys-0.11/g' {} +
+find . -name "*.yaml" -o -type f -exec sed -i 's/tag1/tag2/g' {} +
