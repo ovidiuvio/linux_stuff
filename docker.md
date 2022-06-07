@@ -26,6 +26,9 @@ sudo docker run -t --entrypoint=sh
 sudo docker stop $(docker ps -q)
 ```
 
-
+### Run container without exit
+```
+docker run -d --entrypoint "/usr/bin/env" --name <name> <image> bash -c 'while true; do echo sleeping; sleep 2; done'
+```
 
 
